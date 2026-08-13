@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sathvika Paleti - Computer Science & AI Developer</title>
+    <meta name="description" content="Portfolio of Sathvika Paleti, a Computer Science and Engineering student skilled in Java, Python, AI, NLP, databases, and full-stack development.">
+    <!-- Google Fonts: Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-mode"> <!-- Default to dark mode for a premium feel, toggleable -->
+
+    <!-- Navigation Bar -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="logo">
+                <span class="logo-text">PS.</span>
+            </a>
+            
+            <nav class="nav-links">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#achievements" class="nav-link">Achievements</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-btn" aria-label="Toggle Dark Mode">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Mobile Dropdown -->
+        <div class="mobile-nav" id="mobile-nav">
+            <a href="#about" class="mobile-link">About</a>
+            <a href="#skills" class="mobile-link">Skills</a>
+            <a href="#projects" class="mobile-link">Projects</a>
+            <a href="#achievements" class="mobile-link">Achievements</a>
+            <a href="#contact" class="mobile-link">Contact</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero section">
+            <div class="hero-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+            </div>
+            <div class="hero-content reveal-up">
+                <p class="greeting">Hello, I am</p>
+                <h1 class="name">Sathvika Paleti</h1>
+                <h2 class="subtitle">
+                    <span class="static-text">Computer Science & </span>
+                    <span class="typing-text" id="typing-text"></span><span class="cursor">|</span>
+                </h2>
+                <p class="hero-desc">Building secure, intelligent, and real-world applications with Java, Python & AI</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section">
+            <div class="container reveal-up">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>Hello! I'm <strong>Sathvika Paleti</strong>, a Computer Science and Engineering student pursuing an <strong>Integrated M.Tech at VIT-AP University</strong> with a GPA of <strong>8.37</strong>.</p>
+                        <p>I have strong knowledge of <strong>Java</strong> and <strong>Python</strong>, with project experience in <strong>Artificial Intelligence, Natural Language Processing, database management, and full-stack development</strong>.</p>
+                        <p>I enjoy solving real-world problems by building secure, practical applications. My strengths include <strong>problem solving, leadership, collaboration, and teamwork</strong>.</p>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat-card">
+                            <i class="fa-solid fa-graduation-cap stat-icon"></i>
+                            <h3 class="stat-value">8.37</h3>
+                            <p class="stat-label">GPA</p>
+                        </div>
+                        <div class="stat-card">
+                            <i class="fa-solid fa-laptop-code stat-icon"></i>
+                            <h3 class="stat-value">3+</h3>
+                            <p class="stat-label">Major Projects</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section">
+            <div class="container reveal-up">
+                <h2 class="section-title">My Skills</h2>
+                <div class="skills-grid">
+                    <!-- Tech Skill Cards -->
+                    <div class="skill-card">
+                        <div class="skill-icon java"><i class="fa-brands fa-java"></i></div>
+                        <h3>Java</h3>
+                        <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon python"><i class="fa-brands fa-python"></i></div>
+                        <h3>Python</h3>
+                        <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon html"><i class="fa-brands fa-html5"></i></div>
+                        <h3>HTML/CSS</h3>
+                        <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon dsa"><i class="fa-solid fa-network-wired"></i></div>
+                        <h3>Data Structures</h3>
+                        <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon os"><i class="fa-solid fa-server"></i></div>
+                        <h3>Operating Systems</h3>
+                        <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon dbms"><i class="fa-solid fa-database"></i></div>
+                        <h3>DBMS</h3>
+                        <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon mysql"><i class="fa-solid fa-database"></i></div>
+                        <h3>MySQL & MongoDB</h3>
+                        <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon tools"><i class="fa-brands fa-git-alt"></i></div>
+                        <h3>Git & VS Code</h3>
+                        <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon excel"><i class="fa-solid fa-file-excel"></i></div>
+                        <h3>Microsoft Excel</h3>
+                        <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon ai"><i class="fa-solid fa-brain"></i></div>
+                        <h3>AI & NLP</h3>
+                        <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon chart"><i class="fa-solid fa-chart-column"></i></div>
+                        <h3>Matplotlib & Power BI</h3>
+                        <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon oop"><i class="fa-solid fa-cubes"></i></div>
+                        <h3>Object-Oriented Programming</h3>
+                        <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section">
+            <div class="container reveal-up">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card featured">
+                        <div class="featured-badge"><i class="fa-solid fa-star"></i> Featured</div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <i class="fa-solid fa-lock project-icon"></i>
+                                <h3>Encrypted Terminal-Based Chat Application</h3>
+                            </div>
+                            <div class="project-desc">
+                                <p><strong>Tech:</strong> Python, Cryptography, NLP</p>
+                                <p>Developed a secure peer-to-peer terminal chat application using Python sockets and AES (Fernet) encryption for secure communication.</p>
+                                <p>Integrated speech-to-text, text-to-speech, language translation, and auto-reply features for multilingual communication.</p>
+                            </div>
+                            <div class="tech-stack">
+                                <span>Python</span><span>Fernet</span><span>NLP</span><span>Socket Programming</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-content">
+                            <div class="project-header">
+                                <i class="fa-solid fa-chart-line project-icon"></i>
+                                <h3>Bank Customer Churn Prediction</h3>
+                            </div>
+                            <div class="project-desc">
+                                <p><strong>Tech:</strong> Python, Flask, Scikit-learn, Pandas</p>
+                                <p>Developed a Random Forest machine learning model to predict customer churn, achieving <strong>87% accuracy</strong> through preprocessing, feature engineering, and model evaluation.</p>
+                                <p>Built a Flask web application to analyze customer behavior and support data-driven customer retention strategies.</p>
+                            </div>
+                            <div class="tech-stack">
+                                <span>Python</span><span>Flask</span><span>Scikit-learn</span><span>Pandas</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-content">
+                            <div class="project-header">
+                                <i class="fa-solid fa-magnifying-glass project-icon"></i>
+                                <h3>Campus Lost & Found System</h3>
+                            </div>
+                            <div class="project-desc">
+                                <p><strong>Tech:</strong> React.js, FastAPI, MySQL, JWT, Bootstrap</p>
+                                <p>Developed a full-stack platform for reporting, searching, updating, and managing lost and found items on campus.</p>
+                                <p>Implemented JWT authentication, REST APIs, image upload, CRUD operations, search functionality, and MySQL integration.</p>
+                            </div>
+                            <div class="tech-stack">
+                                <span>React.js</span><span>FastAPI</span><span>MySQL</span><span>JWT</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/Sathvika-Paleti/campus-lost-and-found" target="_blank" class="btn btn-outline"><i class="fa-brands fa-github"></i> View Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>                </div>
+            </div>
+        </section>
+
+        <!-- Achievements & Profiles -->
+        <section id="achievements" class="achievements section">
+            <div class="container reveal-up">
+                <div class="split-section">
+                    
+                    <!-- Achievements -->
+                    <div class="achievements-col">
+                        <h2 class="section-title left-align">Achievements</h2>
+                        <ul class="achievement-list">
+                            <li><i class="fa-solid fa-certificate text-blue"></i><div><strong>Python for Data Science</strong><span>IBM</span></div></li>
+                            <li><i class="fa-solid fa-cloud text-purple"></i><div><strong>AWS Cloud Essentials</strong><span>AWS</span></div></li>
+                            <li><i class="fa-solid fa-brain text-accent"></i><div><strong>OCI 2025 AI Foundations Associate</strong><span>Oracle Cloud Infrastructure</span></div></li>
+                            <li><i class="fa-solid fa-cloud text-green"></i><div><strong>OCI 2025 Foundations Associate</strong><span>Oracle Cloud Infrastructure</span></div></li>
+                            <li><i class="fa-solid fa-code text-gold"></i><div><strong>Java Certification</strong><span>HackerRank</span></div></li>
+                            <li><i class="fa-solid fa-shield-halved text-blue"></i><div><strong>Introduction to Cyber Security</strong><span>Cisco Networking Academy</span></div></li>
+                        </ul>
+                    </div>
+
+                    <!-- Profiles -->
+                    <div class="profiles-col" id="profiles">
+                        <h2 class="section-title left-align">Leadership & Activities</h2>
+                        <div class="profile-cards">
+                            <div class="profile-item">
+                                <i class="fa-solid fa-cloud"></i>
+                                <div class="profile-info">
+                                    <span class="profile-type">Member</span>
+                                    <span class="profile-name">Next Gen CloudClub, VITAP University</span>
+                                </div>
+                            </div>
+                            <div class="profile-item">
+                                <i class="fa-solid fa-music"></i>
+                                <div class="profile-info">
+                                    <span class="profile-type">Member</span>
+                                    <span class="profile-name">Indian Classical Musical Club, VITAP University</span>
+                                </div>
+                            </div>
+                            <div class="profile-item">
+                                <i class="fa-solid fa-users"></i>
+                                <div class="profile-info">
+                                    <span class="profile-type">Strengths</span>
+                                    <span class="profile-name">Problem Solving · Leadership · Collaboration · Time Management</span>
+                                </div>
+                            </div>
+                        </div>
+                            </a>
+                            <a href="https://github.com/Sathvika-Paleti" target="_blank" class="profile-item github">
+                                <i class="fa-brands fa-github"></i>
+                                <div class="profile-info">
+                                    <span class="profile-type">Development</span>
+                                    <span class="profile-name">GitHub</span>
+                                </div>
+                           
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section">
+            <div class="container reveal-up">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <h3>Let's talk about everything!</h3>
+                        <p>Feel free to reach out for internships, collaborations, project opportunities, or just to connect.</p>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fa-solid fa-envelope"></i>
+                                <a href="mailto:sathvikapaleti8@gmail.com">sathvikapaleti8@gmail.com</a>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fa-brands fa-linkedin"></i>
+                                <a href="https://www.linkedin.com/in/sathvika-6b7463275/" target="_blank">LinkedIn Profile</a>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fa-brands fa-github"></i>
+                                <a href="https://github.com/Sathvika-Paleti" target="_blank">GitHub Profile</a>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact-form" id="contact-form" onsubmit="event.preventDefault(); alert('Message sent successfully! (UI Simulation)');">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary submit-btn">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>Designed & Developed by Sathvika Paleti 🚀</p>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollTopBtn" class="scroll-top-btn" aria-label="Scroll to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Base JS Logic -->
+    <script src="script.js"></script>
+</body>
+</html>
